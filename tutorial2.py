@@ -2,7 +2,7 @@ import argparse
 def main():
     # parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("count", type=float, help = "The number of the item")
+    parser.add_argument("count", type=float, help = "The number of the items")
     parser.add_argument("price", type=float, help = "The price of the item")
     parser.add_argument(
         "--province", 
